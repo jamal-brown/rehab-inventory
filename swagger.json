@@ -1,0 +1,38 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "FastTrack Dev Shirt API",
+        "description": "FastTrack Dev Shirts API Info",
+        "contact": {
+            "name": "Jamal B."
+        },
+        "version": "1.0",
+        "servers": [
+            "http://localhost:8080"
+        ]
+    },
+    "paths": {
+        "/tshirt": {
+            "get": {
+                "description": "List of FastTrack Tee Shirts Available",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response Back ❤️!!"
+                    }
+                }
+            }
+        },
+        "/jacket": {
+            "get": {
+                "description": "List of FastTrack Jackets Available",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response Back ❤️!!"
+                    }
+                }
+            }
+        }
+    },
+    "components": {},
+    "tags": []
+}

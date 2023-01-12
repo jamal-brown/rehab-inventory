@@ -1,0 +1,2 @@
+Run Server: node .
+POST Req: curl -X POST http://localhost:8080/tshirt/01 -H 'Content-Type: application/json' -d '{"logo":" 🔥"}'
